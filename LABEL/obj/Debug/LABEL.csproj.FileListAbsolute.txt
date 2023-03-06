@@ -1,0 +1,10 @@
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\bin\Debug\LABEL.exe.config
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\bin\Debug\LABEL.exe
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\bin\Debug\LABEL.pdb
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.csproj.AssemblyReference.cache
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.Form1.resources
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.Properties.Resources.resources
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.csproj.GenerateResource.cache
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.csproj.CoreCompileInputs.cache
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.exe
+C:\Users\christopher.thomasi\source\repos\LABEL\LABEL\obj\Debug\LABEL.pdb
