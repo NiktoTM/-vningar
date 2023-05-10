@@ -1,0 +1,12 @@
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\bin\Debug\ConnectDBtoVS.exe.config
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\bin\Debug\ConnectDBtoVS.exe
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\bin\Debug\ConnectDBtoVS.pdb
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.csproj.AssemblyReference.cache
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.Form1.resources
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.Properties.Resources.resources
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.csproj.GenerateResource.cache
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.csproj.CoreCompileInputs.cache
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.exe
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.pdb
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.AddData.resources
+C:\Users\christopher.thomasi\Desktop\Skol\DatabaS\ConnectDBtoVS\ConnectDBtoVS\obj\Debug\ConnectDBtoVS.Form2.resources
