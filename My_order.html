@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" />
+    <title>Biden's Ice cream</title>
+</head>
+
+<body>
+        <div class=Background>
+                <a href="index.html" class="Logo"></a>
+                <div class=nav_bar>
+                        <a href="Menu.html" class="Item">Order now</a>
+                        <a href="About.html" class="Item">About us</a>
+                        <a href="contact.html" class="Item">Contact</a>
+                        <a href="My_order.html" class="Item">Cart</a>
+                </div>
+                
+    <div class="Cart">
+        <h2>Your Cart</h2>
+            <div class="CartItem">
+                <img src="chocolate.jpg" alt="Chocolate" class="ItemImage">
+                <div class="ItemDetails">
+                    <p>Flavor: Chocolate</p>
+                    <p>Quantity: 2</p>
+                    <p>Price: $5.99 each</p>
+                </div>
+            </div>
+            <div class="CartItem">
+                <img src="vanilla.jpg" alt="Vanilla" class="ItemImage">
+                <div class="ItemDetails">
+                    <p>Flavor: Vanilla</p>
+                    <p>Quantity: 1</p>
+                    <p>Price: $4.99 each</p>
+                </div>
+            </div>
+        <div class="CartTotal">
+            <p>Total: $15.97</p>
+        </div>
+        <label for="discount">Discount Code:</label>
+        <input type="text" id="discount" name="discount" placeholder="Enter discount code">
+        <button class="CashOutButton" onclick="cashOut()">Cash Out</button>
+    </div>
+</div>
+</div>
+
+<script>
+function cashOut() {
+    window.location.href = 'https://your-payment-page.com';
+}
+</script>
+        </div>
+</body>
+
+<footer>
+    <address>
+        1600 Pennsylvania Avenue NW, Washington, DC 20500, USA<br>
+        Phone: +1 (302) 404-0880<br>
+        <p href="mailto:joebiden@gmail.com"> Email: joebiden@freedom.com</p>
+        <p>38.89773369445632, -77.03656474393885</p>
+    </address>
+</footer>
+
+</html>

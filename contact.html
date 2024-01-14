@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" />
+    <title>Biden's Ice cream</title>
+</head>
+
+<body>
+        <div class=Background>
+            <a href="index.html" class="Logo"></a>
+            <div class="Contact_bar"> 
+                <h2 class="Header">Contact us</h2>
+                <form action="process.php" method="post">
+                    <label for="namn">Name:</label>
+                    <input type="text" id="namn" name="namn" required>
+            
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="telefon">Phone number:</label>
+                    <input type="tel" id="telefon" name="telefon" required>
+            
+                    <label for="medlemskap">Are you a member of Bidens Ice cream:</label>
+                    <label for="medlemskap-ja">
+                        <input type="radio" id="medlemskap-ja" name="medlemskap" value="Ja"> Ja
+                    </label>
+                    <label for="medlemskap-nej">
+                        <input type="radio" id="medlemskap-nej" name="medlemskap" value="Nej" checked> Nej
+                    </label>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <button type="submit" class="skicka">Skicka</button>
+                    <button type="reset" class="omstall">Återställ</button>
+                </form>
+            
+            </div>
+                <div class=nav_bar>
+                        <a href="Menu.html" class="Item">Order now</a>
+                        <a href="About.html" class="Item">About us</a>
+                        <a href="contact.html" class="Item">Contact</a>
+                        <a href="My_order.html" class="Item">Cart</a>
+                </div>
+            </div>
+</body>
+
+<footer>
+    <address>
+        1600 Pennsylvania Avenue NW, Washington, DC 20500, USA<br>
+        Phone: +1 (302) 404-0880<br>
+        <p href="mailto:joebiden@gmail.com"> Email: joebiden@freedom.com</p>
+        <p>38.89773369445632, -77.03656474393885</p>
+    </address>
+</footer>
+
+</html>

@@ -1,0 +1,431 @@
+$text_color: black;
+$nav_height: 80px; 
+
+body {
+  margin: 0px;
+}
+
+.Background {
+  width: 100%;
+  height: 980px;
+  background: rgba(255, 255, 255, 1);
+  background-image: url("v2_4.png");
+  opacity: 1;
+  margin-bottom: -20px;
+  margin-right: -100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.Contact_bar{
+  width: 50%;
+  height: 600px;
+  background-color: rgba(255, 216, 79, 0.9);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50px;
+  border: 3px solid white;
+  padding: 10px;
+  margin-bottom: 90px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-with-image {
+  margin-bottom: 30px;
+  background-size: cover;
+}
+
+.text-with-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Header{
+  margin-bottom: 500px;
+  font-size: 26px;
+}
+
+.Cart{
+  height: 600px;
+  margin-top: 200px;
+  margin-left: 70px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Purchases {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ShopOrderBox,
+.Cart {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.ShopOrderBox,
+.Cart {
+  background-color: rgba(255, 216, 79, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ShopOrderBox h2,
+.Cart h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ShopOrderBox p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.ShopButton,
+.CartItem {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ItemImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.ItemDetails {
+  flex-grow: 1;
+}
+
+.CartItem p {
+  margin: 5px 0;
+}
+
+.CartTotal {
+  font-weight: bold;
+}
+
+#discount {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#discount:focus {
+  border-color: #3498db;
+}
+
+.CashOutButton {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.CashOutButton:hover {
+  background-color: #2980b9;
+}
+
+.Menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.MenuItem {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(255, 216, 79, 0.9);
+}
+
+.MenuItem img {
+  width: 100%;
+  max-height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.ItemTitle {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.MenuItem:hover {
+  transform: scale(1.05);
+}
+
+.MenuItem:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.MenuItem:hover::before {
+  opacity: 1;
+}
+
+.MenuItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.AddToBasket {
+  font-size: 20px;
+}
+form {
+        max-width: 400px;
+        margin: auto;
+        background-color: rgba(252, 207, 44, 0.9);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .skicka {
+        background-color: lightgreen;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .omstall{
+      background-color: red;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-left: 80px;
+      cursor: pointer;
+    }
+
+    .skicka:hover {
+        background-color: green;
+    }
+
+    .omstall:hover{
+      background-color: darkred;
+    }
+    
+
+
+.Logo {
+  width: 210px;
+  height: 200px;
+  background-image: url("v112_31.png");
+  background-size: cover;
+  opacity: 1;
+  border-radius: 25px;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.nav_bar {
+  width: 100%;
+  height: $nav_height;
+  background-color: rgba($color: #000000, $alpha: 0.07);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.Item {
+  display: flex;
+  color: $text_color;
+  font-size: 21px; 
+  margin-left: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover, a:focus, a:active {
+  color: #e6dbdb;
+  text-decoration: none;
+}
+
+a:not(.Logo) {
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  color: $text_color;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s, transform 0.2s ease-out;
+  }
+
+  &:active::before {
+    background-color: #000;
+  }
+
+  &:hover::before, &:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+}
+
+.Grabber {
+  width: 418px;
+  height: 240px;
+  background-image: url("v2_110.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  overflow: hidden;
+}
+
+.Big_Order {
+  width: 306px;
+  height: 77px;
+  background: rgba(255, 216, 79, 1);
+  opacity: 1;
+  position: absolute;
+  border-radius: 122px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  top: 165px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.Big_Order_Text {
+  width: 120px;
+  color: $text_color;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+  top: 160px;
+  left: 93px;
+  cursor: pointer;
+}
+
+.Slogan_Long {
+  width: 306px;
+  color: $text_color;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+  top: 100px;
+  left: 0px;
+}
+
+.Slogan {
+  width: 418px;
+  color: $text_color;
+  position: relative;
+  font-family: Playfair Display;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+  top: -55px;
+  left: 0px;
+}
+
+
+footer {
+  height: 150px;
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: $text_color;
+  font-size: 20px;
+}
+
+@media (max-width: 350px) {
+  .nav_bar {
+    flex-direction: column;
+  }
+}
