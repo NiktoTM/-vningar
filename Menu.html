@@ -4,89 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="main.css" rel="stylesheet" />
     <title>Biden's Ice cream</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="Background">
-        <a href="index.html" class="Logo"></a>
-        <div class="nav_bar">
-            <a href="" class="Item">Order now</a>
-            <a href="About.html" class="Item">About us</a>
-            <a href="contact.html" class="Item">Contact</a>
-            <a href="My_order.html" class="Item">Cart</a>
-        </div>
-        <div class="Menu">
-            <div class="MenuItem" data-tooltip="A classic flavor with a rich, creamy taste. Perfect for vanilla lovers.">
-                <img src="https://static.toiimg.com/thumb/63971154.cms?width=573&height=430" alt="Vanilla Ice Cream">
-                <span class="ItemTitle">Vanilla</span><br>
-                Price: $5<br>
-                <span class="AddToBasket">Click to add to basket</span>
+    <div class="bg-img bg-cover" style="background-image: url('v2_4.png'); height:100%; width:100%;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="rounded" src="v112_31.png" alt="Biden's Ice cream" style="max-width: 150px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 " href="Menu.html">Order now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" href="About.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" href="My_order.html">Cart</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="MenuItem" data-tooltip="A heavenly blend of chocolate goodness. Chocolate lover's delight.">
-                <img src="https://staging.veenaazmanov.com/wp-content/uploads/2017/07/Homemade-Chocolate-Ice-Cream-3-500x500.jpg" alt="Chocolate Ice Cream">
-                <span class="ItemTitle">Chocolate</span><br>
-                Price: $6<br>
-                <span class="AddToBasket">Click to add to basket</span>
+        </nav>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://fussfreeflavours.com/wp-content/uploads/2021/11/No-churn-vanilla-ice-cream-featured-500x500.jpg"
+                                    class="card-img-top" alt="Vanilla Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vanilla</h5>
+                                    <p class="card-text">Classic vanilla ice cream with a rich, creamy taste.</p>
+                                    <p class="card-text">Price: $5</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://staging.veenaazmanov.com/wp-content/uploads/2017/07/Homemade-Chocolate-Ice-Cream-3-500x500.jpg"
+                                        class="card-img-top" alt="Chocolate Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate</h5>
+                                    <p class="card-text">Classic chocolate ice cream with a strong taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.chewoutloud.com/wp-content/uploads/2020/04/Mint-Chip-Ice-Cream-Square.jpg"
+                                        class="card-img-top" alt="Mint Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mint</h5>
+                                    <p class="card-text">Mint ice cream with a strong fresh taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.cuisinart.com/globalassets/recipes/recipe_11367_183478977.jpg"
+                                        class="card-img-top" alt="Strawberry Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strawberry</h5>
+                                    <p class="card-text">Original strawberry ice cream with a creamy taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.twopeasandtheirpod.com/wp-content/uploads/2011/07/banana-peanut-butter-ice-cream5.jpg"
+                                        class="card-img-top" alt="Banana Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Banana</h5>
+                                    <p class="card-text">Banana ice cream for those who love banana.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.daringgourmet.com/wp-content/uploads/2023/07/Cookies-and-Cream-Ice-Cream-Recipe-3.jpg"
+                                        class="card-img-top" alt="Cookies And Cream Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cookies and cream</h5>
+                                    <p class="card-text">Cookies and cream ice cream with a delicious taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.errenskitchen.com/wp-content/uploads/2015/06/Easy-Homemade-Cherry-Ice-Cream-feature1.jpg"
+                                        class="card-img-top" alt="Cherry Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cherry</h5>
+                                    <p class="card-text">Cherry ice cream with a explosive taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.braunhousehold.com/en/mediastream/1f4e28f78190a6d7fb68/539x330"
+                                        class="card-img-top" alt="Raspberry Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Raspberry</h5>
+                                    <p class="card-text">Raspberry ice cream with a soothing creamy taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                    <img src="https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Choc-chip-ice-cream-hero-12.jpg"
+                                        class="card-img-top" alt="Chocolate Chocolate Chip Ice Cream">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate Chocolate Chip</h5>
+                                    <p class="card-text">Chocolate Chocolate chip ice cream with a strong taste.</p>
+                                    <p class="card-text">Price: $6</p>
+                                    <a href="#" class="btn btn-info">Add to Basket</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="MenuItem" data-tooltip="Experience the refreshing taste of mint combined with indulgent chocolate chips.">
-                <img src="https://www.chewoutloud.com/wp-content/uploads/2020/04/Mint-Chip-Ice-Cream-Vertical-683x1024.jpg" alt="Mint Chocolate Chip Ice Cream">
-                <span class="ItemTitle">Mint Chocolate Chip</span><br>
-                Price: $4<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="A zesty and refreshing lemon sorbet. Perfect for a citrusy delight.">
-                <img src="https://www.beyondthechickencoop.com/wp-content/uploads/2021/07/Lemon-Sorbet.jpg" alt="Lemon Sorbet">
-                <span class="ItemTitle">Lemon Sorbet</span><br>
-                Price: $5<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="Crunchy cookies and velvety cream come together in this delightful flavor.">
-                <img src="https://www.daringgourmet.com/wp-content/uploads/2023/07/Cookies-and-Cream-Ice-Cream-Recipe-3.jpg" alt="Cookies and Cream Ice Cream">
-                <span class="ItemTitle">Cookies and Cream</span><br>
-                Price: $6<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="Indulge in the dreamy blueberry swirls of this delightful ice cream.">
-                <img src="https://curlygirlkitchen.com/wp-content/uploads/2022/02/Blueberry-Ice-Cream-Egg-Free-012.jpg" alt="Blue Berry Dream Ice Cream">
-                <span class="ItemTitle">Blue Berry Dream</span><br>
-                Price: $7<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="Enjoy the sweetness of raspberry in this refreshing sorbet.">
-                <img src="https://grandbaby-cakes.com/wp-content/uploads/2023/04/raspberry-ice-cream-recipe.jpg" alt="Raspberry Sorbet">
-                <span class="ItemTitle">Raspberry Sorbet</span><br>
-                Price: $5<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="Swirls of strawberry goodness in a creamy delight.">
-                <img src="https://www.thespruceeats.com/thmb/kpuMkqk0BhGMTuSENf_IebbHu1s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/strawberry-ice-cream-10-0b3e120e7d6f4df1be3c57c17699eb2c.jpg" alt="Strawberry Swirl Ice Cream">
-                <span class="ItemTitle">Strawberry Swirl</span><br>
-                Price: $6<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="A tropical explosion of mango flavors in every bite.">
-                <img src="https://sandhyahariharan.co.uk/wp-content/uploads/2018/05/mango-ice-cream-1-of-3-min-500x500.jpg" alt="Mango Madness Ice Cream">
-                <span class="ItemTitle">Mango Madness</span><br>
-                Price: $7<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <div class="MenuItem" data-tooltip="Cool and refreshing watermelon sorbet for a fruity treat.">
-                <img src="https://www.southernliving.com/thmb/ZqWfN3IbBobdnTumYh-qn0ROsKk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Watermelon-Ice-Cream-2000-e9d41fbebbd849558d9ae1b60231e4b3.jpg" alt="Watermelon Sorbet">
-                <span class="ItemTitle">Watermelon Sorbet</span><br>
-                Price: $5<br>
-                <span class="AddToBasket">Click to add to basket</span>
-            </div>
-            <!-- Add more items as needed -->
         </div>
     </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-white text-center">
+        <div class="container">
+            <address>
+                1600 Pennsylvania Avenue NW, Washington, DC 20500, USA<br>
+                Phone: +1 (302) 404-0880<br>
+                <a href="mailto:joebiden@gmail.com">Email: joebiden@freedom.com</a><br>
+                38.89773369445632, -77.03656474393885
+            </address>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
-<footer>
-    <address>
-        1600 Pennsylvania Avenue NW, Washington, DC 20500, USA<br>
-        Phone: +1 (302) 404-0880<br>
+</html>
